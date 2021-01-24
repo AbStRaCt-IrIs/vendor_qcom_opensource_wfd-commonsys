@@ -21,7 +21,7 @@ LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_SHARED_LIBRARIES += libminijail
 LOCAL_SHARED_LIBRARIES += libavservices_minijail
 LOCAL_SHARED_LIBRARIES += vendor.display.config@2.0
-LOCAL_SHARED_LIBRARIES += libdisplayconfig.qti
+LOCAL_SHARED_LIBRARIES += libdisplayconfig.vendor
 LOCAL_STATIC_LIBRARIES := libFraunhoferAAC
 
 LOCAL_32_BIT_ONLY := true
@@ -48,7 +48,7 @@ LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_SHARED_LIBRARIES += libminijail
 LOCAL_SHARED_LIBRARIES += libavservices_minijail
 LOCAL_SHARED_LIBRARIES += vendor.display.config@2.0
-LOCAL_SHARED_LIBRARIES += libdisplayconfig.qti
+LOCAL_SHARED_LIBRARIES += libdisplayconfig.vendor
 LOCAL_STATIC_LIBRARIES := libFraunhoferAAC
 
 LOCAL_VENDOR_MODULE := true
